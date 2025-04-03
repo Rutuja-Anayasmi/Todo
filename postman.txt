@@ -1,0 +1,29 @@
+1. Post - create API
+
+http://localhost:3000/todoCreate
+
+{
+    "title" : "mornign walk",
+    "description" : "early mornign walk from 7-8"
+}
+
+2. Get - All todo
+
+http://localhost:3000/todo
+
+3. Post - Update TODO
+
+http://localhost:3000/todo/update/2
+
+{
+    "title" : "project"
+}
+
+4. Delete - Delete Todo
+
+http://localhost:3000/todo/2
+
+
+5. Get -  View By Id
+
+http://localhost:3000/todo/4
